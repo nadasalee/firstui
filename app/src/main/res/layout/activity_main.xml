@@ -32,7 +32,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button" />
-
+        <EditText
+            android:id="@+id/editTextTextPersonage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:hint="your age"
+            />
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
